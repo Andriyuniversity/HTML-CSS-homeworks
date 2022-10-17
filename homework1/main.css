@@ -1,7 +1,10 @@
+*:not(img){
+    background: rgba(131, 183, 161, 0.31);
+    color: coral;
+}
+
 img{
     min-width: 200px;
     max-width: 400px;
 }
-
-h1
 
