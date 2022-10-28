@@ -1,0 +1,39 @@
+@media screen and (min-width: 0px) and (max-width: 576px) {
+    
+    .content_B-C-D-E-F {
+        height: 78%;
+        flex-direction: column;
+    }
+
+    .content_B-C-D-E {
+        width: 100%;
+        height: 78%;
+    }
+
+    .row {
+        height: 9%;
+    }
+
+    .row > div {
+        width: 15%;
+        aspect-ratio: 1 / 1;
+        /* height: 90%; */
+        border-radius: 10px;
+        padding-bottom: 1px;
+        box-sizing: border-box;
+    }
+
+    #block_A {
+        height: 16%;
+    }
+
+    #block_B {
+        height: 89%;
+    }
+
+    #block_F {
+        width: 100%;
+        height: 20%;
+    }
+
+}
