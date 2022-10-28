@@ -4,21 +4,20 @@
         display: none;
     }
 
-    #header_menu {
-        width: fit-content;
-        padding: 5px;
-        box-sizing: border-box;
-    }
-
-    header[class=block] > #header_menu:hover ~ div[id=block_2] {
+    #menu-reveal {
+        width: 0;
+        height: 0;
         display: flex;
-        position: absolute;
-        z-index: 2;
     }
 
     .content {
         width: 100%;
-        padding-left: 0px;
+        margin-left: 0;
+    }
+
+    footer[class=block] {
+        width: 100%;
+        margin-left: 0;
     }
 
     i[class="fa-solid fa-bars"] {

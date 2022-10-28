@@ -15,9 +15,7 @@ div {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: flex-start;
-    z-index: -1;
-    box-sizing: border-box;
-    padding-top: 10vh;
+    margin-top: 10vh;
     margin-left: 15%;
 }
 
@@ -143,6 +141,10 @@ footer[class=block] {
 
 footer > .filling-block {
     width: 80%;
+}
+
+#menu-reveal {
+    display: none;
 }
 
 i[class="fa-solid fa-bars"] {
