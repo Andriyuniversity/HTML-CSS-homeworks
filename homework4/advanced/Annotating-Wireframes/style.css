@@ -9,7 +9,7 @@ div {
 }
 
 .content {
-    width: 100%;
+    width: 85%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -18,7 +18,7 @@ div {
     z-index: -1;
     box-sizing: border-box;
     padding-top: 10vh;
-    padding-left: 15%;
+    margin-left: 15%;
 }
 
 .block {
@@ -42,6 +42,7 @@ header {
     align-items: center;
     position: fixed;
     top: 0;
+    z-index: 3;
     box-sizing: border-box;
     padding: 0px 10px;
     background-color: white;
@@ -49,7 +50,7 @@ header {
 
 .block_2 {
     width: 15%;
-    height: 175vh;
+    height: 195vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,7 +59,9 @@ header {
     top: 10vh;
     left: 0vw;
     z-index: -1;
+    box-sizing: border-box;
     padding: 25px 5px;
+    background-color: white;
 }
 
 .block_2 > .filling-block {
@@ -127,6 +130,7 @@ header {
 }
 
 footer[class=block] {
+    width: 85%;
     height: 20vh;
     display: flex;
     flex-direction: column;
@@ -134,8 +138,13 @@ footer[class=block] {
     align-items: center;
     box-sizing: border-box;
     padding: 15px 0px;
+    margin-left: 15%;
 }
 
 footer > .filling-block {
     width: 80%;
+}
+
+i[class="fa-solid fa-bars"] {
+    visibility: hidden;
 }

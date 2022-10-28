@@ -1,0 +1,27 @@
+@media screen and (min-width: 0) and (max-width: 576px) {
+    
+    .block_2 {
+        display: none;
+    }
+
+    #header_menu {
+        width: fit-content;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+
+    header[class=block] > #header_menu:hover ~ div[id=block_2] {
+        display: flex;
+        position: absolute;
+        z-index: 2;
+    }
+
+    .content {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    i[class="fa-solid fa-bars"] {
+        visibility: visible;
+    }
+}
