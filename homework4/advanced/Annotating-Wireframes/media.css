@@ -1,15 +1,71 @@
 @media screen and (min-width: 0) and (max-width: 576px) {
     
     .block_2 {
+        height: 230vh;
         display: none;
+        z-index: 2;
+    }
+
+    .block_4 {
+        height: 50vh;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        padding: 25px 20px;
+    }
+
+    .block_4 > .filling-block {
+        width: 38vw;
+        height: 17vh;
+        margin: 15px 0px;
+    }
+
+    .block_5-and-6 {
+        flex-direction: column;
+    }
+
+    .block-5 {
+        width: 100%;
+        height: 110vh;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        justify-content: space-evenly;
+        padding: 20px 20px;
+    }
+
+    .block-5 > .filling-block {
+        height: 12vh;
+        margin-left: 35px;
+    }
+
+    .block-5 :nth-child(-n+3) {
+        margin-left: 23px;
+        background-color: aqua;
+    }
+/* 
+    .block-5 :nth-child(n+4) {
+        background-color: aqua;
+    } */
+
+    .block-6 {
+        width: 100%;
     }
 
     #menu-reveal {
-        width: 0;
-        height: 0;
+        width: 10;
+        height: 10;
         display: flex;
+        position: fixed;
+        top: 4vh;
+        left: 6vw;
+        z-index: 4;
     }
 
+    #menu-reveal:hover ~ div[id=block_2] {
+        display: flex;
+        position: absolute;
+    }
+
+    
     .content {
         width: 100%;
         margin-left: 0;
