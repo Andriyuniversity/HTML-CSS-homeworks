@@ -42,8 +42,13 @@ header {
     top: 0;
     z-index: 3;
     box-sizing: border-box;
-    padding: 0px 10px;
+    padding: 0px 2vw;
     background-color: white;
+}
+
+header > .filling-block {
+    width: 25vw;
+    height: 60%;
 }
 
 .block_2 {
@@ -63,7 +68,8 @@ header {
 }
 
 .block_2 > .filling-block {
-    margin: 10px 0;
+    width: 80%;
+    margin-top: 8%;
 }
 
 .block_3 {
@@ -88,7 +94,13 @@ header {
     flex-wrap: nowrap;
     justify-content: space-evenly;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
+}
+
+.block_4 > .filling-block {
+    width: 43%;
+    height: 60%;
+    margin: 10px 10px;
 }
 
 .block_5-and-6 {
@@ -105,13 +117,14 @@ header {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    padding: 30px 10px;
+    padding: 30px 40px;
 }
 
 .block-5 > .filling-block {
     width: 43%;
-    height: 12%;
-    margin: 10px 0px;
+    min-height: 13%;
+    flex-grow: 1;
+    margin: 10px 10px;
 }
 
 .block-6 {
@@ -121,7 +134,7 @@ header {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 20px 0px;
+    padding: 30px 10px;
     box-sizing: border-box;
 }
 
@@ -139,7 +152,7 @@ footer[class=block] {
     justify-content: space-around;
     align-items: center;
     box-sizing: border-box;
-    padding: 15px 0px;
+    padding: 45px 0px 40px 0px;
     margin-left: 15%;
 }
 
